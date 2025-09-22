@@ -7,7 +7,7 @@ int main()
 	double a; // вхідний параметр
 	double z1; // результат обчислення 1-го виразу
 	double z2; // результат обчислення 2-го виразу
-	cout << "Master branch" << endl;
+	cout << "Master branch, already on GitHub :)" << endl;
 	cout << "x = "; cin >> a;
 	z1 = 1 - (1.0 / 4.0)*pow(sin(2 * a), 2)+cos(2*a);
 	z2 = pow(cos(a), 2) + pow(cos(a), 4);
